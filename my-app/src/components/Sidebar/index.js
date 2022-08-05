@@ -33,7 +33,7 @@ const Sidebar = () => (
                 <a
                     target="_blank"
                     rel="noreferrer"
-                    href="#"
+                    href="https://www.linkedin.com/in/mohammed-aburahma/"
                 >
                     <FontAwesomeIcon icon={faLinkedin} color="#4d4d4d" />
                 </a>
@@ -42,7 +42,7 @@ const Sidebar = () => (
                 <a
                     target="_blank"
                     rel="noreferrer"
-                    href="#"
+                    href="https://github.com/MoRahh"
                 >
                     <FontAwesomeIcon icon={faGithub} color="#4d4d4d" />
                 </a>
@@ -51,7 +51,7 @@ const Sidebar = () => (
                 <a
                     target="_blank"
                     rel="noreferrer"
-                    href="#"
+                    href="https://twitter.com/MoAburahma"
                 >
                     <FontAwesomeIcon icon={faTwitter} color="#4d4d4d" />
                 </a>
