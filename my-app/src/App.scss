@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comic+Neue&family=La+Belle+Aurore&display=swap');
+$primary-color: #ffd700;
+
+@import 'animate.css';
+
+@font-face {
+  font-family: 'Bebas Neue', cursive;
+}
+
+@font-face {
+  font-family: 'Comic Neue', cursive;
+}
+
+@font-face {
+  font-family: 'La Belle Aurore', cursive;
+}
+
+input,
+textarea {
+  font-family: 'Bebas Neue', cursive;
+}
+
+body {
+  font-family: 'Bebas Neue', cursive;
+}
