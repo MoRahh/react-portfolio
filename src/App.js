@@ -13,7 +13,7 @@ function App() {
       <Sidebar />
       <Layout />
       <Routes>
-        <Route path="/" element={<Layout />} />
+        <Route path="/react-portfolio" element={<Layout />} />
         <Route index element={<Home />} />
         <Route path="about" index element={<About />} />
         <Route path="contact" index element={<Contact />} />
