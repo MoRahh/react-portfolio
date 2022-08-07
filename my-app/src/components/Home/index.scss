@@ -31,6 +31,7 @@
         margin: 0;
         letter-spacing: 2px;
 
+
         &::before {
             content: '<h1>';
             font-family: 'La Belle Aurore', cursive;
@@ -57,6 +58,7 @@
         img {
             width: 70px;
             margin-right: 2px;
+            margin-left: 20px;
             animation: rotateIn 1s linear both;
             animation-delay: 1.4s;
         }
@@ -70,6 +72,7 @@
         font-family: sans-serif;
         letter-spacing: 3px;
         animation: fadeIn 1s 1.9s backwards;
+        margin-top: 100px;
     }
 
     .flat-button {
