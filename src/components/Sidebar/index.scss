@@ -101,6 +101,12 @@ nav {
             color: #ffd700;
         }
     }
+
+    a.skills-link {
+        &:after {
+            content: 'Skills';
+        }
+    }
 }
 
 ul {

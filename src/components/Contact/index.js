@@ -3,6 +3,10 @@ import { useState, useEffect } from 'react'
 import Loader from 'react-loaders'
 import { useRef } from 'react'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import 'leaflet/dist/leaflet.css';
+import marker from '../../maps-and-flags.png'
+
+
 
 
 
@@ -63,10 +67,10 @@ const Contact = () => {
                     <span>moodyaburahma@gmail.com</span>
                 </div>
                 <div className='map-wrap'>
-                    <MapContainer center={[28.979530, 41.015137]} zoom={13}>
+                    <MapContainer center={[41.015137, 28.979530]} zoom={13}>
                         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                        <Marker position={[28.979530, 41.015137]}>
-                            <Popup>Mohammed lives here, come over for a cup of coffee :)</Popup>
+                        <Marker Icon={marker} position={[41.015137, 28.979530]}>
+                            <Popup>Mohammed lives here, come over for a cup of coffee </Popup>
                         </Marker>
                     </MapContainer>
                 </div>

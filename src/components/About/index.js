@@ -1,9 +1,7 @@
 import './index.scss'
-import Sidebar from '../Sidebar/index'
-import AnimatedLetters from '../AnimatedLetters/index'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCss3, faGitAlt, faHtml5, faJs, faJsSquare, faPython, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faCss3, faGitAlt, faHtml5, faJsSquare, faPython, faReact } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 
 const About = () => {

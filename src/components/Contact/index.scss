@@ -130,18 +130,24 @@
 
     .flat-button {
         color: #ffd700;
-        font-size: 11px;
+        font-size: 20px;
         letter-spacing: 3px;
         text-decoration: none;
-        padding: 8px 10px;
+        padding: 10px 30px;
         border: 1px solid #ffd700;
         float: left;
         border-radius: 4px;
         background: 0 0;
         text-transform: uppercase;
-        float: right;
         text-align: center;
         margin-right: 10px;
+        transition: all .3s ease;
+
+        &:hover {
+            color: black;
+            background: #ffd700;
+            cursor: pointer;
+        }
     }
 }
 
