@@ -78,11 +78,11 @@ const Skills = () => {
                     <div className='experience'>
                         <div className='card'>
                             <span>Frontend Web Developer</span>
-                            <p><span>Kutez CNC | Istanbul, Turkey</span></p>
+                            <p><span>Kutez CNC | </span><br /> Developing and maintaining and optimizing the website using HTML/CSS/JS</p>
                         </div>
                         <div className='card'>
                             <span>Full Stack Web Developer</span>
-                            <p><span>Upwork | Freelance</span></p>
+                            <p><span>Upwork | Freelance</span><br /> Coding design mockups into pixel perfect, tableless, cross browser compatible, Search engine friendly websites, Via HTML/CSS/JS/NODEJS </p>
                         </div>
                     </div>
 

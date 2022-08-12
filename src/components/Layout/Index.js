@@ -1,20 +1,24 @@
 import './Index.scss'
+import Bg from '../Bg/index'
 
 const Layout = () => {
     return (
-        <div className='App'>
-            <div className='page'>
-                <span className='tags top-tags'>&lt;body&gt;</span>
+        <>
+            <Bg />
+            <div className='App'>
+                <div className='page'>
+                    <span className='tags top-tags'>&lt;body&gt;</span>
 
-                {/* <Outlet /> */}
+                    {/* <Outlet /> */}
 
-                <span className='tags bottom-tags'>
-                    &lt;/body&gt;
-                    <br />
-                    <span className='bottom-tag-html'>&lt;/html&gt;</span>
-                </span>
+                    <span className='tags bottom-tags'>
+                        &lt;/body&gt;
+                        <br />
+                        <span className='bottom-tag-html'>&lt;/html&gt;</span>
+                    </span>
+                </div>
             </div>
-        </div>
+        </>
     )
 }
 
